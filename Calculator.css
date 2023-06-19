@@ -1,0 +1,74 @@
+body{
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+    url("Calc-min.png");
+    background-size:contain;
+}
+.calculatorBody{
+    margin-top: 70px;
+    background-color: #26282A;
+    height: 485px;
+    width: 325px;
+    margin-left: 550px;
+    margin-right: 550px;
+    border-radius: 7px;
+}
+#div1{
+    font-family: system-ui;
+    padding-top: 10px;
+    padding-right: 5px;
+    height: 100px;
+    color: white;
+    font-size: 50px;
+    text-align: right;
+}
+.div2{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    display:flex;
+}
+.div3{
+    margin-left: 5px;
+    margin-right: 5px;
+    display:flex;
+}
+.div4{
+    margin-left: 5px;
+    margin-right: 5px;
+    display:flex;
+}
+.div5{
+    margin-left: 5px;
+    margin-right: 5px;
+    display:flex;
+}
+.div6{
+    margin-left: 5px;
+    margin-right: 5px;
+    display:flex;
+}
+.div7{
+    margin-left: 5px;
+    margin-right: 5px;
+    display:flex;
+    justify-content: space-evenly;
+}
+.btn1{
+    font-size: 20px;
+    width: 180px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5) inset;
+}
+button{
+    font-family: system-ui;
+    background-color: #333333;
+    font-size: 20px;
+    width: 105px;
+    height: 60px;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5) inset;
+
+}
+button:hover{
+    filter: saturate(0.5);
+}
